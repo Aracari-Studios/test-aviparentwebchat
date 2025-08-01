@@ -76,16 +76,15 @@ main {
     height: 100vh;
 }
 
-iframe {
+#chatbot-container iframe {
     width: 100%;
     height: calc(100vh - 60px);
     border: none;
 }
 
-@media (max-width: 768px) {
-    .nav-links {
-        display: none;
-    }
+#chatbot-container {
+    width: 100%;
+    height: calc(100vh - 60px);
 }
 
 @media (max-width: 768px) {
